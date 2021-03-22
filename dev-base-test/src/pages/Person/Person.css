@@ -1,0 +1,31 @@
+.person-box {
+    border-bottom: solid  #B1B1B1;
+    padding: 10px;
+}
+
+.person-box .image-cropper img {
+    border-radius: 50% !important;
+    height: 200px;
+    width: 200px;
+}
+
+.person-name {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #252525;
+}
+
+.person-location {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #B1B1B1;
+}
