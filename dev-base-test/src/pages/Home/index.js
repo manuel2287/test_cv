@@ -12,13 +12,13 @@ const Home = () => {
     }
     const getUserNames = () => topFive.map((val, index) => <Button className="usernames-box" key={index} onClick={e => { redirect(val) }}> {val} </Button>);
 
-    return <Container fluid="md">
-        <Row className="person-box">
+    return <Container fluid="md" className="home-container">
+        <Row className="row-custom">
             <Col>
                 <h1> Top 5 GitHub Users </h1>
             </Col>
         </Row>
-        <Row className="person-box">
+        <Row className="row-custom">
             <Col>
                 <span> Tap the username to see more information </span>
             </Col>
